@@ -5,6 +5,8 @@ import { Progress } from "@/components/ui/progress";
 import { Textarea } from "@/components/ui/textarea";
 
 export default function Home() {
+
+
   return (
     <div className="p-4">
       <div className="flex flex-col gap-y-4">
@@ -17,7 +19,7 @@ export default function Home() {
           <Input placeholder="I am input" />
         </div>
         <div>
-          <Progress />
+          <Progress value={50}/>
         </div>
         <div>
           <Textarea />
